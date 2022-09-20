@@ -23,23 +23,25 @@ Partial expectation of a random variable $X$ over $\mathcal{A} \in \mathbb{R}$ i
 
 $$
 \mathbb{E}(X \ \mathbb{I}\{X \in \mathcal{A}\})
-$$The package provide computations of partial expectations for the following parametric models:
+$$The package provides computations of partial expectations for the following parametric models:
 
 -   Normal
 
+-   Uniform
+
 -   Log-Normal
+
+-   Exponential
+
+-   Beta
 
 -   Gamma
 
 -   Weibull
 
--   Exponential
-
--   Uniform
-
--   Beta
-
 -   Gumbel
+
+-   Fréchet
 
 -   Pareto
 
