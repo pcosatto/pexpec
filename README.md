@@ -18,7 +18,7 @@ is:
 \mathbb{E}(X \ \mathbb{I}\{X \in \mathcal{A}\})
 ")
 
-The package provide computations of partial expectations for the
+The package provides computations of partial expectations for the
 following parametric models:
 
 -   Normal
