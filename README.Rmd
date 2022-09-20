@@ -1,0 +1,64 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pexpec
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+Partial expectation of a random variable $X$ over $\mathcal{A} \in \mathbb{R}$ is:
+
+$$
+\mathbb{E}(X \ \mathbb{I}\{X \in \mathcal{A}\})
+$$The package provide computations of partial expectations for the following parametric models:
+
+-   Normal
+
+-   Log-Normal
+
+-   Gamma
+
+-   Weibull
+
+-   Exponential
+
+-   Uniform
+
+-   Beta
+
+-   Gumbel
+
+-   Pareto
+
+-   Rayleigh
+
+-   Binomial
+
+-   Negative Binomial
+
+-   Geometric
+
+-   Hypergeometric
+
+-   Poisson
+
+## Installation
+
+You can install the development version of pexpec like so:
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```

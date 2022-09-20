@@ -1,0 +1,12 @@
+Package: pexpec
+Title: Partial expectation computations for parametric distribution families
+Version: 0.0.0.9000
+Authors@R: 
+    person("Pedro", "Cosatto", , "first.last@example.com", role = c("cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides functions that calculate partial expectations
+for the most common parametric distribution models. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
