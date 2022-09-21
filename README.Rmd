@@ -19,11 +19,13 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-Partial expectation of a random variable $X$ over $\mathcal{A} \in \mathbb{R}$ is:
+The partial expectation of a random variable $X$ over $\mathcal{A}$ is:
 
 $$
-\mathbb{E}(X \ \mathbb{I}\{X \in \mathcal{A}\})
-$$This package provides simple computations of partial expectations - and partial expetations of $X ^2$ as well - for the following parametric models:
+\mathbb{E}(X^k \ \mathbb{I}\{X \in \mathcal{A}\})
+$$
+
+A special case is when $k \in \{1,2\}$ and $\mathcal{A}$ is either $X \leq x$ or $X \leq x$. This package provides simple computations of this partial expectations for some parametric distribution models
 
 -   Normal.
 
@@ -44,6 +46,8 @@ $$This package provides simple computations of partial expectations - and partia
 -   Hypergeometric.
 
 -   Poisson.
+
+This partial expectations often arise when computing expected values or variance of truncated or transformed variables.
 
 ## Installation
 
