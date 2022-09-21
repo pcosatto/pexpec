@@ -18,43 +18,38 @@ is:
 \mathbb{E}(X \ \mathbb{I}\{X \in \mathcal{A}\})
 ")
 
-The package provide computations of partial expectations for the
-following parametric models:
+This package provides simple computations of partial expectations - and
+partial expetations of
+![X ^2](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;X%20%5E2 "X ^2")
+as well - for the following parametric models:
 
--   Normal
+-   Normal.
 
--   Log-Normal
-
--   Gamma
-
--   Weibull
+-   Log-Normal.
 
 -   Exponential
 
--   Uniform
+-   Beta.
 
--   Beta
+-   Gamma.
 
--   Gumbel
+-   Weibull.
 
--   Pareto
+-   Binomial.
 
--   Rayleigh
+-   Negative Binomial.
 
--   Binomial
+-   Hypergeometric.
 
--   Negative Binomial
-
--   Geometric
-
--   Hypergeometric
-
--   Poisson
+-   Poisson.
 
 ## Installation
 
-You can install the development version of pexpec like so:
+Alpha version of 1.0 published. You can install pexpec like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+library(devtools)
+devtools::install_git('pcosatto/pexpec')
 ```
+
+Please submit any comments, errors or suggestions to pcosatto@fi.uba.ar.
