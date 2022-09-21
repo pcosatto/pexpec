@@ -47,7 +47,7 @@ A special case is when $k \in \{1,2\}$ and $\mathcal{A}$ is either $X \leq x$ or
 
 -   Poisson.
 
-This partial expectations often arise when computing expected values or variance of truncated or transformed variables.
+This partial expectations often arise when calculated expected values or variance of truncated or split linear functions of the original variables.
 
 ## Installation
 

@@ -41,8 +41,3 @@ hbeta <- function(x, order = 1, shape1, shape2, lower.tail = TRUE){
 }
 
 
-hbeta(0.4, 1, 2, 3)
-
-
-
-
