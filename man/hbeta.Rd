@@ -13,8 +13,8 @@ hbeta(x, order = 1, shape1, shape2, lower.tail = TRUE)
 
 \item{shape1, shape2}{non-negative parameters of the Beta distribution.}
 
-\item{lower.tail}{logical; if TRUE (default), \eqn{\mathcal{A}} is
-\eqn{X \leq x}, otherwise,  \eqn{\mathcal{A}} is \eqn{X \geq x}.}
+\item{lower.tail}{logical: If TRUE (default), \eqn{\mathcal{A}} is
+\eqn{X \leq x}; otherwise,  \eqn{\mathcal{A}} is \eqn{X \geq x}.}
 }
 \value{
 Numeric value or vector with the moments.
@@ -30,12 +30,13 @@ with \eqn{k \in \{1,2\}} and \eqn{\mathcal{A}} either \eqn{X \leq x} or
 and \code{shape2}.
 }
 \details{
-The Beta distribution with parameters \code{shape1}
-and \code{shape2} has density:
+The Beta distribution with parameters \eqn{a=}\code{shape1}
+and \eqn{b=}\code{shape2} has density:
 
 \deqn{
 f(x)=\frac{\Gamma(a+b)}{\Gamma(a)\Gamma(b)}{x}^{a-1} {(1-x)}^{b-1}}
 
 for \eqn{a > 0, b > 0} and \eqn{0 \le x \le 1} where the boundary values
 at \eqn{x=0} or \eqn{x=1} are defined as by continuity (as limits).
+For more details check \link\link{dbeta}.
 }
