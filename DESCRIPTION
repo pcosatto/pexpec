@@ -1,6 +1,6 @@
 Package: pexpec
 Title: Partial expectation computations for parametric distributions
-Version: 1.0.0
+Version: 0.9.0
 Authors@R: 
     person("Pedro", "Cosatto", , "pcosatto@fi.uba.ar", role = c("cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))

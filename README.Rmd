@@ -25,7 +25,7 @@ $$
 \mathbb{E}(X^k \ \mathbb{I}\{X \in \mathcal{A}\})
 $$
 
-A special case is when $k \in \{1,2\}$ and $\mathcal{A}$ is either $X \leq x$ or $X \leq x$. This package provides simple computations of this partial expectations for some parametric distribution models
+A special case is when $k \in \{1,2\}$ and $\mathcal{A}$ is either $X \leq x$ or $X \geq x$. This package provides simple computations of this partial expectations for some parametric distribution models
 
 -   Normal.
 
@@ -51,7 +51,7 @@ This partial expectations often arise when calculated expected values or varianc
 
 ## Installation
 
-Alpha version of 1.0 published. You can install pexpec like so:
+Alpha version of 0.9 published with functions for all the distributions listed above. The functions are still under testing. You can install pexpec like so:
 
 ``` r
 library(devtools)
