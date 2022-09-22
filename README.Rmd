@@ -51,7 +51,7 @@ This partial expectations often arise when calculated expected values or varianc
 
 ## Installation
 
-Alpha version of 0.9 published with functions for all the distributions listed above. The functions are still under testing. You can install pexpec like so:
+Alpha version of 0.9 published with functions for all the distributions listed above. The functions are still under testing. You can install `pexpec` like so:
 
 ``` r
 library(devtools)
