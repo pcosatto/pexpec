@@ -25,7 +25,7 @@ and
 is either
 ![X \\leq x](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;X%20%5Cleq%20x "X \leq x")
 or
-![X \\leq x](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;X%20%5Cleq%20x "X \leq x").
+![X \\geq x](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;X%20%5Cgeq%20x "X \geq x").
 This package provides simple computations of this partial expectations
 for some parametric distribution models
 
@@ -49,12 +49,15 @@ for some parametric distribution models
 
 -   Poisson.
 
-This partial expectations often arise when computing expected values or
-variance of truncated or transformed variables.
+This partial expectations often arise when calculated expected values or
+variance of truncated or split linear functions of the original
+variables.
 
 ## Installation
 
-Alpha version of 1.0 published. You can install pexpec like so:
+Alpha version of 0.9 published with functions for all the distributions
+listed above. The functions are still under testing. You can install
+`pexpec` like so:
 
 ``` r
 library(devtools)
