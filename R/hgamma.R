@@ -18,16 +18,17 @@
 #' @return Numeric value or vector with the moments.
 #' @rdname hgamma
 #' @export
-hgamma <- function(x, order = 1, shape, rate = 1, scale = 1/rate, lower.tail = TRUE){
+hgamma <- function(x, order = 1, shape, rate = 1, scale = 1/rate,
+                   lower.tail = TRUE){
 
   if(order == 1){
-    return(shape * scale * pgamma(x, shape = shape + 1, scale
-                                  , lower.tail=lower.tail))
+    return(shape * scale * pgamma(x, shape = shape + 1, scale=scale,
+                                  lower.tail=lower.tail))
   }
 
   if(order == 2){
     return(shape * (shape + 1) * scale^2 * pgamma(x,
-                                                  shape = shape + 2, scale
+                                                  shape = shape + 2, scale=scale
                                                   , lower.tail=lower.tail))
   } else {stop('order must be 1 or 2.')}
 
